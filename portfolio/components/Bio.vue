@@ -4,12 +4,11 @@
             Text..
         </v-col>
         <v-col cols="12" md="4">
-            <competencia
+            <competencia style="color:aliceblue"
                 titol="Idiomes"
             >
-
             </competencia>
-            <competencia
+            <competencia style="color:aliceblue"
                 titol="Software"
             >
             </competencia>
