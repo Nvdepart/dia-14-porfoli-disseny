@@ -1,5 +1,5 @@
 <template>
-    <v-row style="height:100vh" align="center">
+    <v-row style="min-height:100vh" align="center">
         <v-col cols="12" sm="6" style="background:black">
             <v-img :src="imatge" style="position: relative"></v-img>
         </v-col>

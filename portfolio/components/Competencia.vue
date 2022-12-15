@@ -21,24 +21,26 @@ export default{
             default:"Nom de la competència"
         },
         llista:{
+            type:Array,
             default:[
                 {
-                    text:"Català",
+                    text:"text1",
                     estrelles:3
                 },
                 {
-                    text:"Castellà",
+                    text:"text2",
                     estrelles:3
                 },
                 {
-                    text:"Anglès",
+                    text:"text3",
                     estrelles:5
                 },
                 {
-                    text:"Francès",
+                    text:"text4",
                     estrelles:1
                 },
             ]
+
         }
     }
 }

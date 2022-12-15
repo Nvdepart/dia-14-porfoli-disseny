@@ -1,28 +1,49 @@
 <template>
-  <v-container>
-      <Inici
-        titolEsquerre="Port"
-        titolDreta="folio."
-        subTitol="-------------------------------------------------------2019-2022"
-        nom="Andrea López"
-        ofici="Diseño Gráfico"
-      ></Inici>
-      <Hola
-      imatge="https://cdn.pixabay.com/photo/2022/12/06/06/21/lavender-7638368_960_720.jpg"
-      titol="<strong>Hola</stronge>, Soy <br> <strong>Andrea</stronge>"
-      subTitol="Desiñadora Grafica"
-      ></Hola>
-      <bio :informacio="info"></bio>
-      
-  </v-container>
-</template>
+<v-container>
+    <!-- Importar dades del component d'inici-->
+    <inici
+        v-if="porfoliVue"
+        :titolEsquerre="porfoliVue.inici.titolEsquerre"
+        :titolDreta="porfoliVue.inici.titolDreta"
+        :subTitol="porfoliVue.inici.subTitol"
+        :nom="porfoliVue.inici.nom"
+        :ofici="porfoliVue.inici.ofici"
+  ></inici>
+  <!-- Importar dades del component d'inici-->
+    <Hola
+        v-if="porfoliVue"
+        :imatge="porfoliVue.hola.imatge"
+    ></Hola>
+    <Bio
+        v-if="porfoliVue"
+        :informacio="porfoliVue.bio"
+        :informacioContacte="porfoliVue.bio"
+    ></Bio>
+    <LlistaIndex
+    v-if="porfoliVue"
+   :llista="porfoliVue.index.llista"
+    ></LlistaIndex>
+    <LlistaProjectes
+    v-if="porfoliVue"
+   :llista="porfoliVue.index.llista"
+    ></LlistaProjectes>
+</v-container>
 
+
+</template>
 <script>
+import porfoli from "@/dades/porfoli"
+
 export default {
-  data(){
-    return{
-      info:{}
-    }
-  }
+    mounted() {
+        this.porfoliVue = porfoli;
+    },
+    data() {
+        return {
+            porfoliVue: null
+        };
+    },
+    
 }
+
 </script>
