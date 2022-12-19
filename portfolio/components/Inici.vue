@@ -12,18 +12,18 @@
     </v-row>
 </template>
 <script>
-export default{
-    mounted(){
-        console.log(this.titolEsquerre)
-    },
-    props:[
-        'titolEsquerre',
-        'titolDreta',
-        'subTitol',
-        'nom',
-        'ofici'
-    ]
-}
+    export default{
+        mounted(){
+            // console.log(this.titolEsquerre)
+        },
+        props:[
+            'titolEsquerre',
+            'titolDreta',
+            'subTitol',
+            'nom',
+            'ofici'
+        ]
+    }
 </script>
 
 <style scoped>

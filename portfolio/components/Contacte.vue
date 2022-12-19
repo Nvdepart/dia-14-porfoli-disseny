@@ -10,6 +10,15 @@
 </template>
 <script>
     export default{
-        props:["titol","llista"]
+        props:{
+    llista:{
+        type:Array,
+        required:true
+    },
+    titol:{
+        type:String,
+        default:"Contacto"
     }
+   }
+}
 </script>

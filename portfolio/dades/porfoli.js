@@ -63,6 +63,7 @@ export default{
                     {
                         titol:"Galaria 1",
                         text:"Javascript Import statement is used to import bindings that are exported by another module. Using the Javascript import, the code is easier to manage when it is small and bite-size chunks. This is the thinking behind keeping functions to only one task or having files contain only a few or one component at a time.",
+                        slug:"Galaria-1",
                         imatges:[
                             "https://images.pexels.com/photos/6744288/pexels-photo-6744288.jpeg",
                             "https://images.pexels.com/photos/14711716/pexels-photo-14711716.jpeg",
@@ -72,6 +73,7 @@ export default{
                     {
                         titol:"Galaria 2",
                         text:"Javascript Import statement is used to import bindings that are exported by another module. Using the Javascript import, the code is easier to manage when it is small and bite-size chunks. This is the thinking behind keeping functions to only one task or having files contain only a few or one component at a time.",
+                        slug:"Galaria-2",
                         imatges:[
                             "https://images.pexels.com/photos/6744288/pexels-photo-6744288.jpeg",
                             "https://images.pexels.com/photos/14711716/pexels-photo-14711716.jpeg",
@@ -86,6 +88,7 @@ export default{
                     {
                         titol:"Galaria 1",
                         text:"Javascript Import statement is used to import bindings that are exported by another module. Using the Javascript import, the code is easier to manage when it is small and bite-size chunks. This is the thinking behind keeping functions to only one task or having files contain only a few or one component at a time.",
+                        slug:"Galaria-1",
                         imatges:[
                             "https://images.pexels.com/photos/6744288/pexels-photo-6744288.jpeg",
                             "https://images.pexels.com/photos/14711716/pexels-photo-14711716.jpeg",
@@ -95,6 +98,7 @@ export default{
                     {
                         titol:"Galaria 2",
                         text:"Javascript Import statement is used to import bindings that are exported by another module. Using the Javascript import, the code is easier to manage when it is small and bite-size chunks. This is the thinking behind keeping functions to only one task or having files contain only a few or one component at a time.",
+                        slug:"Galaria-2",
                         imatges:[
                             "https://images.pexels.com/photos/6744288/pexels-photo-6744288.jpeg",
                             "https://images.pexels.com/photos/14711716/pexels-photo-14711716.jpeg",
@@ -109,6 +113,7 @@ export default{
                     {
                         titol:"Galaria 1",
                         text:"Javascript Import statement is used to import bindings that are exported by another module. Using the Javascript import, the code is easier to manage when it is small and bite-size chunks. This is the thinking behind keeping functions to only one task or having files contain only a few or one component at a time.",
+                        slug:"Galaria-1",
                         imatges:[
                             "https://images.pexels.com/photos/6744288/pexels-photo-6744288.jpeg",
                             "https://images.pexels.com/photos/14711716/pexels-photo-14711716.jpeg",
@@ -118,6 +123,7 @@ export default{
                     {
                         titol:"Galaria 2",
                         text:"Javascript Import statement is used to import bindings that are exported by another module. Using the Javascript import, the code is easier to manage when it is small and bite-size chunks. This is the thinking behind keeping functions to only one task or having files contain only a few or one component at a time.",
+                        slug:"Galaria-2",
                         imatges:[
                             "https://images.pexels.com/photos/6744288/pexels-photo-6744288.jpeg",
                             "https://images.pexels.com/photos/14711716/pexels-photo-14711716.jpeg",
@@ -132,6 +138,7 @@ export default{
                     {
                         titol:"Galaria 1",
                         text:"Javascript Import statement is used to import bindings that are exported by another module. Using the Javascript import, the code is easier to manage when it is small and bite-size chunks. This is the thinking behind keeping functions to only one task or having files contain only a few or one component at a time.",
+                        slug:"Galaria-2",
                         imatges:[
                             "https://images.pexels.com/photos/6744288/pexels-photo-6744288.jpeg",
                             "https://images.pexels.com/photos/14711716/pexels-photo-14711716.jpeg",
@@ -141,6 +148,7 @@ export default{
                     {
                         titol:"Galaria 2",
                         text:"Javascript Import statement is used to import bindings that are exported by another module. Using the Javascript import, the code is easier to manage when it is small and bite-size chunks. This is the thinking behind keeping functions to only one task or having files contain only a few or one component at a time.",
+                        slug:"Galaria-2",
                         imatges:[
                             "https://images.pexels.com/photos/6744288/pexels-photo-6744288.jpeg",
                             "https://images.pexels.com/photos/14711716/pexels-photo-14711716.jpeg",

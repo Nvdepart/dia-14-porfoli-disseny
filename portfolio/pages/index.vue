@@ -11,22 +11,33 @@
   ></inici>
   <!-- Importar dades del component d'inici-->
     <Hola
-        v-if="porfoliVue"
-        :imatge="porfoliVue.hola.imatge"
-    ></Hola>
+    v-if="porfoliVue"
+    :titol="porfoliVue.hola.titol"
+    :subtitol="porfoliVue.hola.subtitol"
+    :imatge="porfoliVue.hola.imatge"
+  ></Hola>
+
     <Bio
         v-if="porfoliVue"
         :informacio="porfoliVue.bio"
-        :informacioContacte="porfoliVue.bio"
     ></Bio>
+
     <LlistaIndex
     v-if="porfoliVue"
-   :llista="porfoliVue.index.llista"
+    :llista="porfoliVue.index.llista"
     ></LlistaIndex>
+
     <LlistaProjectes
     v-if="porfoliVue"
    :llista="porfoliVue.index.llista"
     ></LlistaProjectes>
+
+    <Gracias  v-if="porfoliVue"
+    :esquerre="porfoliVue.gracias.esquerre"
+    :dreta="porfoliVue.gracias.dreta"
+    :contacte="porfoliVue.bio.informacioContacte"
+    ></Gracias>
+
 </v-container>
 
 
