@@ -14,34 +14,34 @@
     </div>
 </template>
 <script>
-export default{
-    props:{
-        titol:{
-            type:String,
-            default:"Nom de la competència"
-        },
-        llista:{
-            type:Array,
-            default:[
-                {
-                    text:"text1",
-                    estrelles:3
-                },
-                {
-                    text:"text2",
-                    estrelles:3
-                },
-                {
-                    text:"text3",
-                    estrelles:5
-                },
-                {
-                    text:"text4",
-                    estrelles:1
-                },
-            ]
+    export default{
+        props:{
+            titol:{
+                type:String,
+                default:"Nom de la competència"
+            },
+            llista:{
+                type:Array,
+                default:[
+                    {
+                        text:"text1",
+                        estrelles:3
+                    },
+                    {
+                        text:"text2",
+                        estrelles:3
+                    },
+                    {
+                        text:"text3",
+                        estrelles:5
+                    },
+                    {
+                        text:"text4",
+                        estrelles:1
+                    },
+                ]
 
+            }
         }
     }
-}
 </script>

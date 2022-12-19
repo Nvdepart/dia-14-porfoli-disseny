@@ -18,7 +18,7 @@
     titol:{
         type:String,
         default:"Contacto"
-    }
+    },
    }
 }
 </script>

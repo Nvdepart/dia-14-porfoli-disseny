@@ -13,7 +13,7 @@
 </template>
 <script>
     export default{
-        props:["llista"]
+        props:["llista"],
     }
 </script>
 

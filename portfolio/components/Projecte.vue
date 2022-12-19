@@ -2,7 +2,7 @@
        
     <div v-if="projecte">
         <h3>{{projecte.titol}}</h3>
-        <p style="max-width:500px">{{projecte.text}}</p>
+        <p style="max-width:500px; text-align:justify; text-justify:inter-word">{{projecte.text}}</p>
         <nuxt-link
         :to="'/projectes/'+numeroSeccio+'/'+numeroProjecte"
         >veure projecte</nuxt-link>

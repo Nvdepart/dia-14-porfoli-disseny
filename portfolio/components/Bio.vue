@@ -7,7 +7,6 @@
         
         <v-col cols="12" md="4" v-if="informacio">
                 <competencia
-                    
                     :titol="informacio.c1.titol"
                     :llista="informacio.c1.llista"
                 >

@@ -10,24 +10,23 @@
     </v-row>
 </template>
 <script>
-export default {
-    props:{
+    export default {
+        props:{
 
-        imatge:{
-            type: String,
-            default:"https://images.pexels.com/photos/1561020/pexels-photo-1561020.jpeg"
-        },
-        titol:{
-            type: String,
-            default:"<strong>Hola</strong> soy <br> <strong>Andrea</strong>"
-        },
-        subTitol:{
-            type: String,
-            default:"Desiñadora Grafica"
-        },
+            imatge:{
+                type: String,
+                default:"https://images.pexels.com/photos/1561020/pexels-photo-1561020.jpeg"
+            },
+            titol:{
+                type: String,
+                default:"<strong>Hola</strong> soy <br> <strong>Andrea</strong>"
+            },
+            subTitol:{
+                type: String,
+                default:"Desiñadora Grafica"
+            },
+        }   
     }
-    
-}
 </script>
 
 <style scoped>
